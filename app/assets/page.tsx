@@ -1,6 +1,6 @@
 import { BlogPosts } from "app/components/posts";
 import Image from "next/image";
-import image form 'app/assets/image.jpg';
+import image from 'app/assets/image.jpg';
 
 export default function Page() {
   return (
