@@ -58,7 +58,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         env:  # Add environment variables here
-          NEXT_PUBLIC_BASE_URL: https://pasindu-silva.github.io/portfolio-nextjs
+          NEXT_PUBLIC_ASSETS_URL: https://pasindu-silva.github.io/portfolio-nextjs
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
