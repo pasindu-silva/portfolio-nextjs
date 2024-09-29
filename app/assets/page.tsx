@@ -9,7 +9,7 @@ export default function Page() {
       <div className="flex gap-x-4 items-center flex-row mb-10">
         <Image
           // Dynamically set the image source based on the environment
-          src={`${baseUrl}/images/image.jpg`}
+          src={`${baseUrl}/image.jpg`}
           alt="profile pic"
           width={100}
           height={100}
